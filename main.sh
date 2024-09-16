@@ -28,7 +28,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[96;1m          AUTOSCRIPT PREMIUM KYZELL VPN STORE             \033[0m"
+echo -e "\033[96;1m          AUTOSCRIPT PREMIUM ARJUN VPN STORE             \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -77,7 +77,7 @@ clear
 rm -f /usr/bin/user
 username=$(curl https://raw.githubusercontent.com/lekseng/Register/main/register | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/darxides/lekseng/Register/register | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/lekseng/Register/register | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
