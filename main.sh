@@ -77,7 +77,7 @@ clear
 rm -f /usr/bin/user
 username=$(curl https://raw.githubusercontent.com/lekseng/Register/main/register | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/lekseng/Register/register | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/lekseng/Register/main/register | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 username=$(cat /usr/bin/user)
 oid=$(cat /usr/bin/ver)
